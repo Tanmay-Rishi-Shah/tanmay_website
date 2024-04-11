@@ -218,67 +218,44 @@
 
   <div class="container" style="background-color: black !important;">
 
-    <div class="box">
+    <div class="ring">
 
-      <span></span>
+        <i style="--clr:#00d5ff;"></i>
+        <i style="--clr:#26ff00;"></i>
+        <i style="--clr:#ffee00;"></i>
+        <i style="--clr:#ff0000;"></i>
 
-      <div class="content">
-        <div class="background">
-          <div class="container">
-            <div class="screen">
-              <!-- <div class="screen-header">
-                <div class="screen-header-left">
-                  <div class="screen-header-button close"></div>
-                  <div class="screen-header-button maximize"></div>
-                  <div class="screen-header-button minimize"></div>
-                </div>
-                <div class="screen-header-right">
-                  <div class="screen-header-ellipsis"></div>
-                  <div class="screen-header-ellipsis"></div>
-                  <div class="screen-header-ellipsis"></div>
-                </div>
-              </div>
-               -->
-              <div class="screen-body">
-                <div class="screen-body-item left-1">
-                  <div class="app-title">
-                    <small>CONTACT</small>
-                    <small>US</small>
-                  </div>
-                  <div class="app-contact">CONTACT INFO :+91 9971843434</div>
-                </div>
-                <div id="toast-container" class="toast-top-right"></div>
-                <form action="/contact-me" class="form" method="POST">
-                  <div class="screen-body-item">
-                    <div class="app-form">
-                      <div class="app-form-group">
-                        <input class="app-form-control" name="user_name" type="text" required placeholder="NAME">
-                      </div>
-                      <div class="app-form-group">
-                        <input class="app-form-control" name="user_email" type="email" required placeholder="EMAIL">
-                      </div>
-                      <div class="app-form-group">
-                        <input class="app-form-control" name="user_phone" type="tel" required placeholder="CONTACT NO">
-                      </div>
-                      <div class="app-form-group message">
-                        <input class="app-form-control" name="user_message" required placeholder="MESSAGE">
-                      </div>
-                      <div class="app-form-group buttons">
-                        <button type="reset" class="app-form-button">CANCEL</button>
-                        <button type="submit" class="app-form-button">SEND</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div class="login">
+          <h2>Contact Me</h2>
 
+<form action="/contact-me" method="post">
+
+  <div class="inputBx">
+    <input type="text" placeholder="Enter Your Name"  name="user_name" required>
+  </div>
+
+          <div class="inputBx">
+            <input type="email" placeholder="Enter Your Email" name="user_email" required>
           </div>
+
+          <div class="inputBx">
+            <input type="text" placeholder="Enter Your Phone Number" name="user_phone" required>
+          </div>
+          
+          <div class="inputBx">
+            <input type="text" placeholder="Enter Your  Message" name="user_message" required>
+          </div>
+          
+          <div class="inputBx">
+            <input type="submit" value="Send Me">
+          </div>
+          
+        </form>
         </div>
-
       </div>
-
-    </div>
+  
+<!-- ring div ends here --> 
+  <!--ring div ends here-->
     <footer class="footer">
       <div class="waves">
         <div class="wave" id="wave1"></div>
